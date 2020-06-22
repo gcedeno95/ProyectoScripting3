@@ -48,4 +48,8 @@ public class MainMenu_Buttons : MonoBehaviour
         Application.Quit();
             
     }
+    public void SetQuality(int qualityIndex)
+    {
+        QualitySettings.SetQualityLevel(qualityIndex); 
+    }
 }
