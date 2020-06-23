@@ -14,6 +14,7 @@ public class RocketScript : MonoBehaviour
     private void Awake()
     {
         canShoot = false;
+        GetComponent<Rigidbody>().isKinematic = true;
     }
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ public class RocketScript : MonoBehaviour
     {
         if (canShoot)
         {
+            GetComponent<Rigidbody>().isKinematic = false;
             GetComponent<Rigidbody>().velocity = -transform.forward * speed;
         }
     }
