@@ -549,15 +549,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5843584279446953501}
     m_Modifications:
-    - target: {fileID: 1410588929344484869, guid: c4ab8a2c81044b646bd3abf310de90c4,
+    - target: {fileID: 1410588929344484866, guid: c4ab8a2c81044b646bd3abf310de90c4,
         type: 3}
-      propertyPath: m_Name
-      value: RocketLauncher
+      propertyPath: m_forceToApply
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1410588929344484869, guid: c4ab8a2c81044b646bd3abf310de90c4,
+    - target: {fileID: 1410588929344484866, guid: c4ab8a2c81044b646bd3abf310de90c4,
         type: 3}
-      propertyPath: m_Layer
-      value: 8
+      propertyPath: m_reloadTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1410588929344484868, guid: c4ab8a2c81044b646bd3abf310de90c4,
         type: 3}
@@ -614,42 +614,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1410588929344484866, guid: c4ab8a2c81044b646bd3abf310de90c4,
+    - target: {fileID: 1410588929344484869, guid: c4ab8a2c81044b646bd3abf310de90c4,
         type: 3}
-      propertyPath: m_forceToApply
-      value: 0
+      propertyPath: m_Name
+      value: RocketLauncher
       objectReference: {fileID: 0}
-    - target: {fileID: 1410588929344484866, guid: c4ab8a2c81044b646bd3abf310de90c4,
-        type: 3}
-      propertyPath: m_reloadTime
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1410588929938211066, guid: c4ab8a2c81044b646bd3abf310de90c4,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5836411317699298995, guid: c4ab8a2c81044b646bd3abf310de90c4,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1410588929752570546, guid: c4ab8a2c81044b646bd3abf310de90c4,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5836411317699298993, guid: c4ab8a2c81044b646bd3abf310de90c4,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5836411317699298997, guid: c4ab8a2c81044b646bd3abf310de90c4,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1410588929945042315, guid: c4ab8a2c81044b646bd3abf310de90c4,
+    - target: {fileID: 1410588929344484869, guid: c4ab8a2c81044b646bd3abf310de90c4,
         type: 3}
       propertyPath: m_Layer
       value: 8
@@ -663,6 +633,36 @@ PrefabInstance:
         type: 3}
       propertyPath: force
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410588929752570546, guid: c4ab8a2c81044b646bd3abf310de90c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410588929938211066, guid: c4ab8a2c81044b646bd3abf310de90c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410588929945042315, guid: c4ab8a2c81044b646bd3abf310de90c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836411317699298993, guid: c4ab8a2c81044b646bd3abf310de90c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836411317699298995, guid: c4ab8a2c81044b646bd3abf310de90c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5836411317699298997, guid: c4ab8a2c81044b646bd3abf310de90c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4ab8a2c81044b646bd3abf310de90c4, type: 3}
@@ -679,12 +679,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5843584279446953501}
     m_Modifications:
-    - target: {fileID: 6850280382769129142, guid: 976ba6134c445b443be33d399f990201,
+    - target: {fileID: 2067340627199931511, guid: 976ba6134c445b443be33d399f990201,
         type: 3}
-      propertyPath: m_Name
-      value: Pistol
+      propertyPath: m_reloadTime
+      value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 6850280382769129142, guid: 976ba6134c445b443be33d399f990201,
+    - target: {fileID: 2154230012261786573, guid: 976ba6134c445b443be33d399f990201,
         type: 3}
       propertyPath: m_Layer
       value: 8
@@ -744,15 +744,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2154230012261786573, guid: 976ba6134c445b443be33d399f990201,
+    - target: {fileID: 6850280382769129142, guid: 976ba6134c445b443be33d399f990201,
+        type: 3}
+      propertyPath: m_Name
+      value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850280382769129142, guid: 976ba6134c445b443be33d399f990201,
         type: 3}
       propertyPath: m_Layer
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2067340627199931511, guid: 976ba6134c445b443be33d399f990201,
-        type: 3}
-      propertyPath: m_reloadTime
-      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976ba6134c445b443be33d399f990201, type: 3}
@@ -769,12 +769,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5843584279446953501}
     m_Modifications:
-    - target: {fileID: 5296073021196093167, guid: 0733303573649a94e8a131153b7c3967,
+    - target: {fileID: 726976730026119928, guid: 0733303573649a94e8a131153b7c3967,
         type: 3}
-      propertyPath: m_Name
-      value: Shotgun
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 5296073021196093167, guid: 0733303573649a94e8a131153b7c3967,
+    - target: {fileID: 727181837444981248, guid: 0733303573649a94e8a131153b7c3967,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 727237151223052772, guid: 0733303573649a94e8a131153b7c3967,
         type: 3}
       propertyPath: m_Layer
       value: 8
@@ -834,6 +839,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5296073021196093167, guid: 0733303573649a94e8a131153b7c3967,
+        type: 3}
+      propertyPath: m_Name
+      value: Shotgun
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296073021196093167, guid: 0733303573649a94e8a131153b7c3967,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296073021501719878, guid: 0733303573649a94e8a131153b7c3967,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5546178396220680986, guid: 0733303573649a94e8a131153b7c3967,
         type: 3}
       propertyPath: m_reloadTime
@@ -844,22 +864,22 @@ PrefabInstance:
       propertyPath: m_accuracyDropPerShot
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5296073021501719878, guid: 0733303573649a94e8a131153b7c3967,
+    - target: {fileID: 5546178396220680986, guid: 0733303573649a94e8a131153b7c3967,
+        type: 3}
+      propertyPath: m_weapon
+      value: 
+      objectReference: {fileID: 2257360768433520887}
+    - target: {fileID: 6032831825516718064, guid: 0733303573649a94e8a131153b7c3967,
         type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 727181837444981248, guid: 0733303573649a94e8a131153b7c3967,
+    - target: {fileID: 6032831825516718068, guid: 0733303573649a94e8a131153b7c3967,
         type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 727237151223052772, guid: 0733303573649a94e8a131153b7c3967,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 726976730026119928, guid: 0733303573649a94e8a131153b7c3967,
+    - target: {fileID: 6032831825516718070, guid: 0733303573649a94e8a131153b7c3967,
         type: 3}
       propertyPath: m_Layer
       value: 8
@@ -872,6 +892,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5542573503506179843}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2257360768433520887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6032831825516718068, guid: 0733303573649a94e8a131153b7c3967,
+    type: 3}
+  m_PrefabInstance: {fileID: 5542573503506179843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7854185216950601224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -879,16 +905,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5843584279446953501}
     m_Modifications:
-    - target: {fileID: 1707761411930715149, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Name
-      value: GranadeLauncher
-      objectReference: {fileID: 0}
-    - target: {fileID: 1707761411930715149, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 91199565226344093, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -944,45 +960,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9158609492157133174, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
+    - target: {fileID: 1707761411930715149, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
         type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4066555734094298327, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_reloadTime
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 40769038034782038, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9160042764634025816, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9160174749994586380, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9159384755478084662, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9159379097873221790, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9159395792159552046, guid: 71cf0e1d3c3a24b4989585e0c3447eab,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
+      propertyPath: m_Name
+      value: GranadeLauncher
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71cf0e1d3c3a24b4989585e0c3447eab, type: 3}
@@ -999,6 +980,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5843584279446953501}
     m_Modifications:
+    - target: {fileID: 2629835068576252701, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+        type: 3}
+      propertyPath: m_accuracyDropPerShot
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629835068576252701, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+        type: 3}
+      propertyPath: m_weapon
+      value: 
+      objectReference: {fileID: 4043113611253493973}
     - target: {fileID: 2629835068576252702, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
         type: 3}
       propertyPath: m_Name
@@ -1059,16 +1050,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2629835068576252701, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+    - target: {fileID: 4972804218787974288, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
         type: 3}
-      propertyPath: m_accuracyDropPerShot
-      value: 1
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972804218787974290, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972804218787974292, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972804218787974294, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8, type: 3}
 --- !u!4 &6440702105383485272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2629835068576252703, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 9015913431985060935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4043113611253493973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4972804218787974290, guid: 5cf5ff95f67bd4c4086e32cb8b7362a8,
     type: 3}
   m_PrefabInstance: {fileID: 9015913431985060935}
   m_PrefabAsset: {fileID: 0}

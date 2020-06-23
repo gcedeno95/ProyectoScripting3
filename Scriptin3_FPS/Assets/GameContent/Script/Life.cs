@@ -19,7 +19,9 @@ public class Life : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentLife -= damage;
-        if (this.gameObject.tag == "Player") UI_Manager.Instance.UpdateHealth(currentLife, maxLife);
+        if (this.gameObject.tag == "Player")
+            UI_Manager.Instance.UpdateHealth(currentLife, maxLife);
+
         if (currentLife <= 0)
         {
             if (!isPlayer)

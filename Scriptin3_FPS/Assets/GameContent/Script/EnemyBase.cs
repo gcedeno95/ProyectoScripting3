@@ -10,8 +10,8 @@ public class EnemyBase : MonoBehaviour
     float distanceToPlayer;
     [SerializeField] float distanceToDetect = 10;
     [SerializeField] float distanceToAttack = 2;
-    [SerializeField] float distanceToOrigin = 15;
     [SerializeField] float timeBtwAttacks = 1;
+    [SerializeField] Animator enemyAnimator;
     float timerAttacks;
     float speed;
     // Start is called before the first frame update
@@ -26,15 +26,21 @@ public class EnemyBase : MonoBehaviour
     void Update()
     {
         distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-
         GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
+
+        Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+        transform.LookAt(targetPosition);
+
         if (distanceToPlayer <= distanceToAttack && timerAttacks >= timeBtwAttacks)
         {
+            enemyAnimator.SetFloat("Speed", 0);
+            enemyAnimator.SetTrigger("Attack");
             player.GetComponent<Life>().TakeDamage(10);
             timerAttacks = 0;
         }
         else
         {
+            enemyAnimator.SetFloat("Speed", 1);
             timerAttacks += Time.deltaTime;
         }
         
