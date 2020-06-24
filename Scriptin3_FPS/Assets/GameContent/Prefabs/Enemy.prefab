@@ -19,6 +19,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &438507516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2731058081600223589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755b7335e7136654790b9c4b02a36748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4763360209201213789
 GameObject:
   m_ObjectHideFlags: 0
@@ -32,7 +44,6 @@ GameObject:
   - component: {fileID: 4763360209201213777}
   - component: {fileID: 4763360209201213778}
   - component: {fileID: 4763360209201213788}
-  - component: {fileID: 4258271369102496362}
   m_Layer: 4
   m_Name: Enemy
   m_TagString: Untagged
@@ -122,18 +133,6 @@ CapsuleCollider:
   m_Height: 1.8375001
   m_Direction: 1
   m_Center: {x: -0.007094264, y: 0.91875005, z: 0}
---- !u!114 &4258271369102496362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4763360209201213789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 755b7335e7136654790b9c4b02a36748, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6253045551553765484
 PrefabInstance:
   m_ObjectHideFlags: 0
