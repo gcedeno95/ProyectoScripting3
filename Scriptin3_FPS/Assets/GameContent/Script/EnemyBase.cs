@@ -6,24 +6,25 @@ using UnityEngine;
 public class EnemyBase : MonoBehaviour
 {
     GameObject player;
-    Vector3 origin;
+    /*Vector3 origin;
     float distanceToPlayer;
     [SerializeField] float distanceToDetect = 10;
     [SerializeField] float distanceToAttack = 2;
     [SerializeField] float timeBtwAttacks = 1;
     [SerializeField] Animator enemyAnimator;
     float timerAttacks;
-    float speed;
+    float speed;*/
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        origin = transform.position;
-        timerAttacks = 0;
+        //origin = transform.position;
+        //timerAttacks = 0;
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
         GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
@@ -44,5 +45,10 @@ public class EnemyBase : MonoBehaviour
             timerAttacks += Time.deltaTime;
         }
         
+    }*/
+
+    public void DoDamage()
+    {
+        player.GetComponent<Life>().TakeDamage(10);
     }
 }
