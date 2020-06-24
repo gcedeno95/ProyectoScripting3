@@ -12,7 +12,7 @@ public class Audio_Manager : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);//
     }
 
     // Start is called before the first frame update
