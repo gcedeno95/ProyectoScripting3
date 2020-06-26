@@ -11,6 +11,7 @@ public class UI_Manager : MonoBehaviour
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] Image healthBar;
     [SerializeField] GameObject deathPanel;
+    [SerializeField] GameObject victoryPanel; 
 
     private float score;
 
@@ -26,6 +27,7 @@ public class UI_Manager : MonoBehaviour
     {
         instance = this;
         deathPanel.SetActive(false);
+        victoryPanel.SetActive(false); 
     }
 
     public void UpdateAmmo(float ammo)
@@ -43,6 +45,11 @@ public class UI_Manager : MonoBehaviour
     {
         deathPanel.SetActive(true);
         Time.timeScale = 0;
+    }
+    public void showVictory()
+    {
+        victoryPanel.SetActive(true);
+        Time.timeScale = 0; 
     }
 
     public void UpdateHealth(float current, float max)
