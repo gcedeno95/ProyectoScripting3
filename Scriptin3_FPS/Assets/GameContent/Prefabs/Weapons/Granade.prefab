@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c68253d31f2fff43b152ca561fa70d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 80
+  damage: 100
   duration: 3
   radius: 4
   force: 5
