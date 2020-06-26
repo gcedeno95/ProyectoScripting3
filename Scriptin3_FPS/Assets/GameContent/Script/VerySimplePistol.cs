@@ -35,6 +35,7 @@ public class VerySimplePistol : MonoBehaviour
     public WeaponType myWeaponType;
     public GameObject m_rocket;
     public Transform m_rocketSpot;
+    public GameObject m_bloodParticle;
 
     float bulletsShot;
     private bool m_canShot;
@@ -129,9 +130,13 @@ public class VerySimplePistol : MonoBehaviour
             if (Physics.Raycast(ray, out hit, m_weaponRange))
             {
                 if (hit.transform.gameObject.GetComponent<Life>())
+                {
                     hit.transform.gameObject.GetComponent<Life>().TakeDamage(m_damage);
+                    GameObject blood = Instantiate(m_bloodParticle, hit.transform);
+                    Destroy(blood, 1);
+                }
                     
-
+                   
                 if (hit.rigidbody && !hit.transform.gameObject.GetComponent<EnemyBase>())
                     hit.rigidbody.AddForce(ray.direction * m_forceToApply);
             }
